@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="contact.css">
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+        <title>logan april</title>
+       
+    </head>
+    <body>
+
+        <div class="navbar">
+            <a href="my portfolio.html">home</a>
+            <a href="about-me.html">about-me</a>
+            <a href="contact.html">contact</a>
+        </div>
+       
+       <div class="title">
+       <h1>contact</h1>
+       </div>
+       <div class="box"> 
+           
+              <form id="contact-Form">
+               <input type= "text" name="name" id="name" class="form-control" placeholder="Enter You Name" required><br>
+               <input type= "email" name="email" id="email" class="form-control" placeholder="Enter You Email" required><br>
+               <textarea name="message" id="message" class="form-control" placeholder="Message" rows="4" required></textarea><br>
+               <div class="g-recaptcha" data-sitekey="6LdgHdgUAAAAAA5UeVuGAp6quRMNFb4IZ1y4IkQZ">
+               </div>
+
+               <input type="submit" name="" class="form-control submit" value="SEND MESSAGE">
+           </form>
+       </div>
+       
+       <footer>
+        <a class="facebook" href="https://www.facebook.com/"><img src="icon1.jfif" alt="facebook" width="70px" height="70px"></a>
+        <a class="twitter" href="https://twitter.com/login?lang=en"><img src="icon2.png" alt="twitter" width="70px" height="70px"></a>
+        <a class="instagram" href="https://www.instagram.com/accounts/login/?hl=en"><img src="insta.jfif" alt="instagram" width="70px" height="70px"></a>
+        <a class="linkedin" href="https://www.linkedin.com/login"><img src="linked.png" alt="linkedin" width="70px" height="70px"></a>
+    </footer>
+
+    <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+    <script src="main.js"></script> 
+    </body>
+</html>

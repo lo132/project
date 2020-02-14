@@ -1,0 +1,169 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header
+{
+    background: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url(sky\ image.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+}
+.navbar
+{
+    text-align: center;
+    padding: 20px;
+}
+
+.navbar a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-family: Tahoma;
+    margin-right: 80px;
+    border: 2px solid transparent;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.navbar a:hover
+{
+    background: #000;
+    border: 2px solid 3fff;
+}
+
+.head-content
+{
+    text-align: center;
+}
+
+.head-content img{
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin-top: 20px;
+}
+
+.head-content img:hover
+{
+    border: 2px solid #000;
+}
+
+.name
+{
+    cursor: pointer;
+    font-size: 50px;
+    color:#fff;
+    font-family: Algerian;
+}
+
+.desc
+{
+    cursor: default;
+    font-size: 30px;
+    color: #fff;
+    font-family: Harlow solid;
+}
+
+footer
+{
+    padding: 2px;
+    margin-top: 2px;
+    color: white;
+    background-color: rgb(15, 17, 17);
+    text-align: center;
+}
+
+
+
+.about-me{
+    width: 100%;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: url(sky\ image.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar
+{
+    text-align: center;
+    padding: 0px;
+}
+
+.navbar a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: Tahoma;
+    margin-right: 60px;
+    border: 2px solid transparent;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.navbar a:hover
+{
+    background: #000;
+    border: 2px solid 3fff;
+}
+
+.about-me:after{
+    content: "";
+    display: block;
+    clear: both;
+} 
+
+.about-me h2{
+    color: #333;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+} 
+
+.about-me h2:after{
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    margin-left: -40px;
+    left: 50%;
+    bottom: 0px;
+    background-color: #85af4b;
+}
+
+.about-me h4{
+     text-align: center;
+}
+
+.about-me .col-left, .about-me .col-right{
+    width: 50%;
+    float: left;
+}
+
+.about-me .col-left{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.about-me .col-left img{
+    max-width: 100%;
+    border-radius: 60px;
+    }
+
+
+
+    
+
+   

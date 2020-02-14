@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: url(sky\ image.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.navbar
+{
+    text-align: center;
+    padding: 20px;
+}
+
+.navbar a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-family: Tahoma;
+    margin-right: 80px;
+    border: 2px solid transparent;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.navbar a:hover
+{
+    background: #000;
+    border: 2px solid 3fff;
+}
+
+.title{
+    margin-top: 100px;
+    color: #fff;
+}
+
+.title h1{
+    font-size: 32px;
+    line-height: 10px;
+}
+
+.title h2{
+    font-size: 16px;
+}
+
+
+form{
+   margin-top: 50px; 
+}
+
+.form-control{
+    width: 600px;
+    background:transparent;
+    border:none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+input{
+    height: 45px;
+}
+
+form .submit{
+    background-color: #ff5722;
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+    transition: 0.4s ease;
+}
+form .submit:hover{
+    background-color: #f44336;
+    cursor: pointer;
+}
+
+footer
+{
+    padding: 2px;
+    margin-top: 2px;
+    color: white;
+    text-align: right;
+    border-radius: 50%;
+}
